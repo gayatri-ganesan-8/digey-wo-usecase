@@ -1,0 +1,38 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "list-job-requisitions.herokuapp.com",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/allJobRequisitions": {
+      "get": {
+        "description": "",
+        "operationId": "getAllJRs",
+        "parameters": [
+          {
+            "name": "department",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "location",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

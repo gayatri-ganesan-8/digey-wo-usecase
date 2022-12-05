@@ -1,0 +1,34 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "and": "^0.0.3",
+    "axios": "^1.1.3",
+    "express": "^4.18.2",
+    "querystring": "^0.2.1",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.5.0",
+    "cors": "2.8.5"
+  },
+  "engines": {
+    "node": ">=14.x",
+    "npm": ">=7.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayatriganeshan87/digey-wo-usecase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gayatriganeshan87/digey-wo-usecase/issues"
+  },
+  "homepage": "https://github.com/gayatriganeshan87/digey-wo-usecase#readme",
+  "description": ""
+}
